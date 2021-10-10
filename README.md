@@ -15,6 +15,7 @@
 ```
 pip install SpeechRecognition
 pip install gTTS
+brew install portaudio
 pip install pyaudio
 ```
 - To run the application in English type:
