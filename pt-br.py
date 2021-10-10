@@ -11,7 +11,12 @@ while True:
             text = r.recognize_google(audio,language='pt-BR')
 
             print(text)
-            if text == "encerrar":
+            
+            if 'quem é você' in text.lower():
+                print("Quem sou eu? Eu ainda não aprendi")
+            elif 'quem sou eu' in text:
+                print("Você é o Davi")
+            elif text == "encerrar":
                 break
                 
             text = r.recognize_google(audio,language='pt-BR')
@@ -19,4 +24,3 @@ while True:
         except:
             print("Não entendi, pode repetir?")
 
-hr = gTTS(text=voice, Lang="pt-br", slow=False)
