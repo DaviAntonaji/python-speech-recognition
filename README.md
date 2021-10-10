@@ -16,7 +16,6 @@
 pip install SpeechRecognition
 pip install gTTS
 pip install pyaudio
-
 ```
 - To run the application in English type:
 ```
