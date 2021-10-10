@@ -11,7 +11,7 @@
 
 
 - Python tested version: 3.8.0
-- Install brew on [https://docs.brew.sh/Installation](here)
+- Install brew on [https://docs.brew.sh/Installation](https://docs.brew.sh/Installation)
 - Install dependencies by typing the following commands:
 ```
 pip install SpeechRecognition
