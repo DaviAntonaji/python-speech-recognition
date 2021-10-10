@@ -18,9 +18,13 @@ pip install gTTS
 pip install pyaudio
 
 ```
-- Run the following command to start the application
+- To run the application in English type:
 ```
-python3 app.py
+python3 en.py
+```
+- Para rodar a aplicação em português digite:
+```
+python3 pt-br.py
 ```
 ------------
 
