@@ -11,12 +11,16 @@
 
 
 - Python tested version: 3.8.0
-- Install brew on [Linux & Mac](https://docs.brew.sh/Installation) [Windows](http://www.portaudio.com/)
+- If you use linux or macos install brew on [https://docs.brew.sh/Installation](https://docs.brew.sh/Installation)
+- And install the portaudio by command:
+```
+brew install portaudio
+```
+- If you use Windows, or want to download directly from the site, go to:  [http://www.portaudio.com/](http://www.portaudio.com/)
 - Install dependencies by typing the following commands:
 ```
 pip install SpeechRecognition
 pip install gTTS
-brew install portaudio
 pip install pyaudio
 ```
 - To run the application in English type:
